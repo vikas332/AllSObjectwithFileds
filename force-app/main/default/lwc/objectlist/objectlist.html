@@ -1,0 +1,55 @@
+
+<template>
+   
+     
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="select-01">Select Object</label><br/>
+        <div class="slds-form-element__control">
+        <div class="slds-select_container">
+           
+            <lightning-combobox style="width: 400px;"
+            label="Select an SObject"
+            value={value}
+            placeholder="select Object"
+            options={accOptions}
+            onchange={onchange}
+            >
+        </lightning-combobox>
+        
+            
+    
+       
+         
+        <lightning-button style="margin-left: 5px;"
+        variant="brand"
+        label="Add" 
+        onclick={onclick} 
+      ></lightning-button>
+         
+
+      <lightning-combobox style="width: 400px;"
+      label="Select an filed"
+      value={value}
+      placeholder="select Object's filed"
+      options={filedsOptons}
+      onchange={onchange1}
+      >
+  </lightning-combobox>
+      
+        
+    
+        
+            
+    
+      
+
+
+        </div>
+        </div>
+        </div>
+           
+        
+
+      
+   
+</template>
