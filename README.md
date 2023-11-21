@@ -1,4 +1,4 @@
-#AllSObjectwithFileds
+ # AllSObjectwithFileds
 
 This project is a simple web application built to explore Salesforce objects and their fields. It allows users to select a Salesforce object from a dropdown menu, and then dynamically populates another dropdown with the fields associated with that object.
 
