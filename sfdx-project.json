@@ -5,8 +5,8 @@
       "default": true
     }
   ],
-  "name": "vks2",
+  "name": "Release4.7Backup",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "58.0"
+  "sourceApiVersion": "59.0"
 }
